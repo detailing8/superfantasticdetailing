@@ -428,40 +428,6 @@
     .gallery-item:hover .gallery-overlay { opacity: 1; }
     .gallery-overlay p { color: var(--white); font-size: 0.85rem; font-weight: 600; }
 
-    /* ── REVIEWS ── */
-    #reviews { background: var(--blue); }
-    #reviews .section-title { color: var(--white); }
-    #reviews .section-label { color: var(--gold); }
-    #reviews .section-sub { color: #aab; }
-
-    .reviews-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-
-    .review-card {
-      background: var(--blue-mid);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: var(--radius);
-      padding: 1.75rem;
-    }
-
-    .stars { color: var(--gold); font-size: 1rem; margin-bottom: 0.75rem; }
-    .review-card p { color: #ccd; font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
-    .reviewer { display: flex; align-items: center; gap: 0.75rem; }
-
-    .avatar {
-      width: 40px; height: 40px;
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-weight: 800; font-size: 1rem; color: var(--blue);
-    }
-
-    .reviewer-info strong { display: block; color: var(--white); font-size: 0.9rem; }
-    .reviewer-info small { color: #889; font-size: 0.75rem; }
 
     /* ── BOOKING FORM ── */
     #booking { background: var(--off-white); }
@@ -653,7 +619,6 @@
     <li><a href="#services">Services</a></li>
     <li><a href="#why">Why Us</a></li>
     <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#reviews">Reviews</a></li>
     <li><a href="#booking" class="nav-cta">Book Now</a></li>
   </ul>
 </nav>
@@ -756,50 +721,6 @@
 </section>
 
 
-<!-- REVIEWS -->
-<section id="reviews">
-  <p class="section-label">Customer Love</p>
-  <h2 class="section-title">What Our Customers Say</h2>
-  <p class="section-sub">Don't take our word for it — here's what real customers think about SUPER Fantastic Detailing.</p>
-
-  <div class="reviews-grid">
-    <div class="review-card">
-      <div class="stars">★★★★★</div>
-      <p>"Absolutely blew me away. My car looked like it just rolled off the showroom floor. The SUPER Fantastic package is worth every penny. I'll never go anywhere else!"</p>
-      <div class="reviewer">
-        <div class="avatar" style="background:#f5c400">JM</div>
-        <div class="reviewer-info">
-          <strong>Jessica M.</strong>
-          <small>SUPER Fantastic Detail • 2 weeks ago</small>
-        </div>
-      </div>
-    </div>
-
-    <div class="review-card">
-      <div class="stars">★★★★★</div>
-      <p>"I have three kids and my minivan was a disaster. These guys made it look brand new. The odor is completely gone and I can actually see the floor again. 10/10!"</p>
-      <div class="reviewer">
-        <div class="avatar" style="background:#4a90e2">RT</div>
-        <div class="reviewer-info">
-          <strong>Robert T.</strong>
-          <small>Deep Clean • 1 month ago</small>
-        </div>
-      </div>
-    </div>
-
-    <div class="review-card">
-      <div class="stars">★★★★★</div>
-      <p>"Got the ceramic coating and it's been 6 months — my car still beads water perfectly. The team was professional, on time, and super detail-oriented. Highly recommended."</p>
-      <div class="reviewer">
-        <div class="avatar" style="background:#e74c3c">AK</div>
-        <div class="reviewer-info">
-          <strong>Aisha K.</strong>
-          <small>Ceramic Coating • 6 months ago</small>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- BOOKING -->
 <section id="booking">
